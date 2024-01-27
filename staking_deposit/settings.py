@@ -20,7 +20,7 @@ MainnetSetting = BaseChainSetting(
 # Auroria setting
 AuroriaSettings = BaseChainSetting(
     NETWORK_NAME=AURORIA, GENESIS_FORK_VERSION=bytes.fromhex('0a000a14'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('0212c5972c93a627c3190983d0805df4a08379c6049857bf5cd22c9e80cf6994')
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('55e9926fc5accb8addfee35751d43c1313ae12780b6ad29e21ea32da97b33d8f')
 )
 
 ALL_CHAINS: Dict[str, BaseChainSetting] = {
