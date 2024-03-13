@@ -16,7 +16,7 @@ AURORIA = 'auroria'
 # Mainnet setting
 MainnetSetting = BaseChainSetting(
     NETWORK_NAME=MAINNET, GENESIS_FORK_VERSION=bytes.fromhex('0a000000'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('4b363db94e286120d76eb905340fdd4e54bfe9f06bf33ff6cf5ad27f511bfe95'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('a73c6c40923a73d0ba772eb3791352c8f6cf42bd72c4677e9153d5a14de991e5'))
 # Auroria setting
 AuroriaSettings = BaseChainSetting(
     NETWORK_NAME=AURORIA, GENESIS_FORK_VERSION=bytes.fromhex('0a000a14'),
